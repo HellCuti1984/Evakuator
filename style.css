@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Play&display=swap');
+
+body{background-color: #1e1e1e !important; 
+	font-family: 'Play', sans-serif !important; 
+	color: #fff !important;}
+
+p{padding: 0px; margin: 0px;}
+
+/*Первая часть*/
+.Name
+{
+	font-size: 42px;
+	margin: 35px 0 0 70px;
+}
+.col-md-5 img
+{
+	width: 100%;
+	margin: 0 auto;
+	border-right: 1px solid white;
+}
+/*Первая часть*/
+
+/*Вторая часть*/
+.col-md-5
+{
+	font-size: 24px !important;
+}
+
+.info
+{
+	margin: 11% 70px 0 70px; 
+}
+
+.Head
+{
+	font-size: 30px;
+}
+
+.Text {font-size: 18px;}
+
+.info ul
+{
+	margin: 30px 0 0 30px;
+	font-size: 18px;
+}
+.numbers{padding: 0;}
+.numbers li{    
+	list-style-type: none;
+    padding: 25px 0px;
+    text-align: center;
+    background: #ffc326;
+    margin: 10px 10px;
+    border-radius: 30px;
+    transition: 0.1s;
+	font-size: 28px;
+	width: 800px;
+}
+.numbers li:hover{background: #ffaa26;}
+.numbers a:hover{text-decoration: none; color: black;}
+.numbers a{color: black;}
+/*Вторая часть*/
+
+footer
+{
+	position: absolute;
+	bottom: 0px;
+	color: #fff;
+	text-align: center;
+	width: 100%;
+}
+
+@media screen and (max-width: 1023px)
+{
+	
+}
+
+@media screen and (max-width: 1023px)
+{
+	.Head{font-size: 42px;}
+	.info ul{font-size: 32px;}
+	.info p{font-size: 42px !important;}
+	.col-md-5 img{border: none;}
+}
